@@ -4,7 +4,7 @@ class Book:
     def __init__(self, title, author, year):
         self.title = title
         self.author = author
-        self._year = year #hiding year attribute
+        self._year = year # so as to hide year attribute
 
     def getYear(self):
         return self._year
